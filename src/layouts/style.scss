@@ -1,0 +1,68 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {box-sizing: border-box;}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas:
+    "header header header header"
+    "main main main main"
+    "main main main main"
+    "footer footer footer footer";
+
+    font: 1.2em Helvetica, arial, sans-serif;
+}
+
+.wrapper > * {
+    border: 2px solid #f08c00;
+    background-color: #ffec99;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.header {
+  grid-area: header;
+  background: 'rebeccapurple';
+  marginBottom: '1.45rem';
+}
+
+.main {
+  grid-area: main;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr,1fr,1fr,1fr;
+  /* grid-template-rows: 1fr; */
+  grid-template-areas:
+  "aside content content content";
+  /* background-color: #000000; */
+}
+
+.aside {
+  grid-area: aside;
+  background-color: green;
+
+}
+
+.content {
+  display: grid;
+  grid-area: content;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: blue;
+  grid-gap: 20px;
+}
+
+.footer {
+  grid-area: footer;
+  font-size: 20px;
+  background-color: red;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+/* Styles */
+}
