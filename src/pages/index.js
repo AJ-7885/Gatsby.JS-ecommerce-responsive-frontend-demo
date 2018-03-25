@@ -8,8 +8,7 @@ class IndexPage extends React.Component {
   constructor(props) {
     super();
     this.state = {
-      products: props.data.allProducts.edges,
-      categories: props.data.allProducts.edges
+      products: props.data.allProducts.edges
     };
   }
 
