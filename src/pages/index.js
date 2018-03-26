@@ -5,21 +5,22 @@ import Caregories from '../components/Categories/Categories'
 import '../layouts/index.css'
 
 class IndexPage extends React.Component {
-  constructor(props) {
-    super();
-    this.state = {
-      products: props.data.allProducts.edges
-    };
-  }
+    constructor(props) {
+        super();
+        this.state = {
+            products: props.data.allProducts.edges
+        };
+    }
 
-  componentDidMount() {}
+    componentDidMount() {
+    }
 
-  render(props) {
-    return (<div className="main">
-        <Caregories  products={this.state.products}/>
-        <ProductGrid  products={this.state.products}/>
-    </div>)
-  }
+    render(props) {
+        return (<div className="main">
+            <Caregories products={this.state.products}/>
+            <ProductGrid products={this.state.products}/>
+        </div>)
+    }
 }
 
 export default IndexPage;
