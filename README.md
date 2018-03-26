@@ -4,7 +4,7 @@
 
 ## Install
 
-Make sure that you have the NodeJS,NPM,GIT programs installed:
+Make sure the NodeJS,NPM,GIT has been installed.
 
 
 Check your development environment
@@ -12,7 +12,7 @@ supports versions of Node back to v6 and npm to v3.
 
 Then clone the project
 ```sh
-git clone ....
+git clone https://github.com/mavajsunco/ecommerce-responsive-frontend-demo
 ```
 
 Then you can run it by:
@@ -25,11 +25,13 @@ npm run develop
 To build and run the production on your local environment
 ```sh
 npm run build
-npm
+npm run serve
 ```
-## Deploy websites
 
-npm install --global surge
+## Deploy websites
+```sh
+npm install --global surge 
+```
 
 # Then create a (free) account with them
 surge
@@ -40,6 +42,6 @@ ls public
 
 surge public/
 
-
+# Or Can use Netlify to publish the website
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mavajsunco/ecommerce-responsive-frontend-demo)
