@@ -34,6 +34,7 @@ npm install --global surge
 ```
 
 # Then create a (free) account with them
+```sh
 surge
 
 npm run build
@@ -41,6 +42,7 @@ npm run build
 ls public
 
 surge public/
+```
 
 # Or Can use Netlify to publish the website
 
