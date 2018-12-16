@@ -5,7 +5,7 @@ const Header = () => (
   <div className="header">
       <h1>
         <Link to="/">
-          MAVAJ SUN CO
+          E-Commerce Responsive Shop UI
         </Link>
       </h1>
   </div>
