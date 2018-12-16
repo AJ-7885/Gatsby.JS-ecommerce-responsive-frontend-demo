@@ -16,7 +16,7 @@ exports.sourceNodes = ({boundActionCreators}) => {
         // await for results
         // const res = await fetchProducts();
 
-        axios.get(`https://raw.githubusercontent.com/Flaconi/coding-challenges/master/senior-frontend-engineer/resources/productlist.json`)
+        axios.get(`https://raw.githubusercontent.com/Flaconi/coding-challenges/master/frontend-engineer/resources/productlist.json`)
             .then(res => {
                 // map into these results and create nodes
                 res.data.map((product, i) => {
