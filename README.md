@@ -1,4 +1,4 @@
-# ecommerce-responsive-frontend-demo
+# Gatsby.JS-ecommerce-responsive-frontend-demo
 
 
 
@@ -12,7 +12,7 @@ supports versions of Node back to v6 and npm to v3.
 
 Then clone the project
 ```sh
-git clone https://github.com/mavajsunco/ecommerce-responsive-frontend-demo
+git clone https://github.com/AJ-7885/Gatsby.JS-ecommerce-responsive-frontend-demo
 ```
 
 Then you can run it by:
@@ -46,4 +46,4 @@ surge public/
 
 # Or Can use Netlify to publish the website
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mavajsunco/ecommerce-responsive-frontend-demo)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/AJ-7885/Gatsby.JS-ecommerce-responsive-frontend-demo)

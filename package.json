@@ -2,7 +2,7 @@
   "name": "ecommerce-responsive-frontend-demo",
   "description": "E-Commerce Responsive Frontend Demo",
   "version": "1.0.0",
-  "author": "MAVAJ SUN CO <aj@MavajSunCo.com>",
+  "author": "https://github.com/AJ-7885/",
   "dependencies": {
     "axios": "^0.18.0",
     "gatsby": "^1.9.223",
