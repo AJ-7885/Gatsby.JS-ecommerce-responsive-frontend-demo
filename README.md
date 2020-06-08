@@ -47,3 +47,9 @@ surge public/
 # Or Can use Netlify to publish the website
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/AJ-7885/Gatsby.JS-ecommerce-responsive-frontend-demo)
+
+
+### Demo Video
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=pXjNtecx8p4" target="_blank"><img src="http://img.youtube.com/vi/pXjNtecx8p4/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="640" height="360" border="10" /></a>
